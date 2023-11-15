@@ -1,0 +1,76 @@
+.header-text {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  .non-selectable {
+    user-select: none;
+    font-size: 30px;
+  }
+  .col{
+    font-size: 30px;
+  }
+
+  /* Small screens */
+  @media (max-width: 576px) {
+    h1{
+      background-color: hotpink;
+    }
+    .bg-info {
+      color: #f8d7da; /* Bootstrap danger color for small screens */
+    }
+    .bg-warning {
+      color: #fff3cd; /* Bootstrap warning color for small screens */
+    }
+     .bg-secondary {
+      color: #d4edda; /* Bootstrap success color for small screens */
+    }
+ .bg-primary {
+      color: #cce5ff; /* Bootstrap primary color for small screens */
+    }
+    .bg-danger {
+      color: #fff3cd; /* Bootstrap warning color for small screens */
+    }
+  }
+
+  /* Medium screens */
+  @media (min-width: 577px) and (max-width: 992px) {
+    h1{
+      background-color: #33c7e9;
+    }
+    .bg-info {
+     color: #d20a1b; /* Bootstrap danger color for medium screens */
+    }
+    .bg-warning {
+      color: green; /* Bootstrap warning color for medium screens */
+    }
+    .bg-success, .bg-secondary {
+      color: #3613e4; /* Bootstrap success color for medium screens */
+    }
+    .bg-danger, .bg-primary {
+      color: #f12e10; /* Bootstrap primary color for medium screens */
+    }
+    .bg-danger {
+      color: #651d12; /* Bootstrap warning color for small screens */
+    }
+  }
+
+  /* Large screens */
+  @media (min-width: 993px) {
+    h1{
+      background-color: #ba58bb;
+    }
+    .bg-info {
+      color: #17a2b8; /* Bootstrap info color for large screens */
+    }
+    .bg-warning {
+      color: #5507ff; /* Bootstrap warning color for large screens */
+    }
+    .bg-secondary {
+      color: #28a745; /* Bootstrap success color for large screens */
+    }
+    .bg-primary {
+      color: #fff200; /* Bootstrap primary color for large screens */
+    }
+    .bg-danger {
+      color: #fff3cd; /* Bootstrap warning color for small screens */
+    }
+  }
